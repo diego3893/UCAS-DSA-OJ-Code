@@ -43,7 +43,7 @@ int main(){
     }
     printf("\n");
     first_output = 1;
-    for(int i=0; i<R.size(); ++i){
+    for(int i=0; i<L.size(); ++i){
         if(first_output){
             first_output = 0;
             printf("%d", L[i]);
